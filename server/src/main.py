@@ -25,7 +25,7 @@ if sentry_config:
                   traces_sample_rate=sentry_config.get('traces_sample_rate', 0.1))
 
 
-SIGNIN_DURATION_IN_DAYS = 30
+SIGNIN_DURATION_IN_DAYS = 50
 
 
 def init_app_without_routes(disable_csrf=False):
